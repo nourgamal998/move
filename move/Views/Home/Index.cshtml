@@ -1,0 +1,32 @@
+﻿@model mooove
+<div class="row">
+   
+    
+        <div class="col-4">
+            <div class="card" style="height:100%">
+                <div style="height:100%">
+                    <img src="~/images/@Model.img" class="card-img-top" alt="..." />
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-9">
+                            <h5 class="card-title">@Model.Name</h5>
+                     </div>
+                     <div class="col-3">
+                         <span class="badge text-bg-success">@Model.date</span>
+                         </div>
+                         </div>
+                    <p class="card-text">
+                        Some quick example text to
+                        build on the card title and make up the bulk of the card's content.
+                    </p>
+                    <span class="badge text-bg-warning">@Model.Description</span>
+                    <br /><br />
+                    <a href="https//localhost/Home/Details/@Model.Id"
+                    class="btn btn-primary">show Details...</a>
+                </div>
+            </div>
+        </div>
+
+    
+</div>

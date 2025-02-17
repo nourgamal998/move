@@ -1,0 +1,37 @@
+﻿@model mooove
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-4">
+            <img src="~/imeges/@Model.img" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">@Model.Name</h5>
+                <p class="card-text">This is a wider card with supporting text below as a
+                    natural lead-in to additional content. This content is a little bit 
+                    longer.</p>
+                    <p class="card-text">date:<span class="badge text-bg-warning
+                     ">@Model.time</span></p>
+                            <h4>Descriptiion</h4>
+                         <ul>
+                              <li>item 1</li>
+                              <li>item 2</li>
+                              <li>item 3</li>
+                              <li>item 4</li>
+                         </ul>
+                <p class="card-text"><small class="text-body-secondary">
+                    Last updated 3 mins ago</small></p>
+                    <form>
+                        <div class="row mb-3 d-flex justify-content-end">
+                            <div class="col-2">
+                                  <input type="number" placeholder="cout..."  class="form-control">
+                                  </div>
+                                  <div class="col-3">
+                                      <button type="submit" class="btn btn-primary">add to cart</button>
+                                      </div>
+                                     </div>
+                    </form>
+            </div>
+        </div>
+    </div>
+</div>
